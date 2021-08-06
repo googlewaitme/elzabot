@@ -19,6 +19,8 @@ photo_themes = [
     'japan',
     'canada',
     'USA',
+    'sankt petersburg',
+    'tea',
 ]
 
 BOT_TOKEN = env.str('BOT_TOKEN')

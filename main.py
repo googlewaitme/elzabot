@@ -10,7 +10,7 @@ async def post_in_channel():
     theme = random.choice(settings.photo_themes)
     photo_url = Photo().get_url_random_photo(theme)
     media = types.MediaGroup()
-    media.attach_photo(photo_url, '[ freedom ]')
+    media.attach_photo(photo_url, '🥀  f r e e d o m  🥀')
     await bot.send_media_group(
         media=media, chat_id=settings.CHANNEL_ID)
 
